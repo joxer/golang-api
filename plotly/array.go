@@ -22,6 +22,11 @@ func (a *Array) SetInts(ints []int64) {
 	a = &Array{ints}
 }
 
+func (a *Array) SetFloats(floats []float64) {
+	a = &Array{floats}
+}
+
+
 func (a *Array) AsStrings() []int64 {
 	return nil
 }
